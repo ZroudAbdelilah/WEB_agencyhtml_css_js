@@ -1,0 +1,80 @@
+    body {
+        background-color: #001f21;
+        color: #ffffff;
+    }
+    
+    section#testimonials {
+        background-color: #001f21;
+        background-blend-mode: multiply;
+    }
+    
+    section#testimonials::before {
+        display: none;
+    }
+    
+    .back {
+        background: black;
+    }
+    
+    .front {
+        background: black;
+    }
+    
+    .pricing::before {
+        background: #2a2a2a;
+    }
+    
+    section#learning {
+        background-color: #001f21;
+        background-blend-mode: multiply;
+    }
+    
+    section#learning::before {
+        display: none;
+    }
+    
+    .n-s a {
+        text-decoration: none;
+        color: #ffffff !important;
+    }
+    
+    .bg-white {
+        background-color: #001f21!important;
+    }
+    
+    a.nav-item.nav-link {
+        color: #ffffff !important;
+    }
+    
+    .highlighted {
+        background-color: #001f21;
+    }
+    
+    footer {
+        padding-top: 30px;
+        background-color: #001f21;
+        color: var(--color-white);
+    }
+    
+    #home::before {
+        background-image: none;
+        background-color: #001f21;
+    }
+    
+    header a.nav-item.nav-link:hover {
+        text-shadow: #42f0ff 0px 0px 8px;
+    }
+    
+    a.text-dark:focus,
+    a.text-dark:hover {
+        color: #00bcd4 !important;
+    }
+    
+    .navbar-light .navbar-toggler {
+        background-color: white;
+    }
+    
+    a.navbar-brand img {
+        background: white;
+        border-radius: 5px;
+    }
